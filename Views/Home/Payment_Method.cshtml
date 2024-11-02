@@ -1,0 +1,122 @@
+﻿
+<div class="container mt-5">
+    <div class="row">
+      <h4>Select a payment method</h4>
+        <!-- Left side: Payment Method Form -->
+        <div class="col-md-8">
+            <div class="stepper">
+                <div class="step">
+                    <div class="icon"><i class="bi bi-house"></i></div>
+                    <span class="step-label">Address</span>
+                </div>
+                <hr class="flex-grow-1 mx-2">
+                <div class="step">
+                    <div class="icon"><i class="bi bi-credit-card"></i></div>
+                    <span class="step-label">Payment Method</span>
+                </div>
+                <hr class="flex-grow-1 mx-2">
+                <div class="step">
+                    <div class="icon"><i class="bi bi-check-circle"></i></div>
+                    <span class="step-label">Review</span>
+                </div>
+            </div>
+
+
+            <form>
+                <div class="form-check mb-3">
+                    <input class="form-check-input " type="radio" name="paymentMethod" id="creditCard" checked>
+                    <label class="form-check-label" for="creditCard">
+                        Debit/Credit Card
+                    </label>
+                </div>
+
+                <div class="mb-3">
+                    <label for="cardNumber" class="form-label">Card Number</label>
+                    <input type="text" class="form-control" id="cardNumber" placeholder="3897 222X 1900 3890">
+                </div>
+
+                <div class="mb-3">
+                    <label for="cardName" class="form-label">Card Name</label>
+                    <input type="text" class="form-control" id="cardName" placeholder="Robert Fox">
+                </div>
+
+                <div class="row g-3 mb-3">
+                    <div class="col-md-6">
+                        <label for="expiryDate" class="form-label">Expiry Date</label>
+                        <input type="text" class="form-control" id="expiryDate" placeholder="09/26">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="cvv" class="form-label">CVV</label>
+                        <input type="password" class="form-control" id="cvv" placeholder="•••">
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-dark mb-3">Add Card</button>
+
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="radio" name="paymentMethod" id="googlePay">
+                    <label class="form-check-label" for="googlePay">
+                        Google Pay
+                    </label>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="radio" name="paymentMethod" id="paypal">
+                    <label class="form-check-label" for="paypal">
+                        Paypal
+                    </label>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="radio" name="paymentMethod" id="cashOnDelivery">
+                    <label class="form-check-label" for="cashOnDelivery">
+                        Cash on Delivery
+                    </label>
+                </div>
+
+                <a class="btn btn-dark" href="/home/Order_Summary">Continue</a>
+            </form>
+        </div>
+
+        <!-- Right side: Summary -->
+        <div class="col-md-4">
+            <div class="card-summary">
+                <ul class="list-group list-group-flush">
+                  <!-- Subtotal -->
+                  <li class="list-group-item d-flex justify-content-between">
+                    <span>Subtotal</span>
+                    <span>$200.00</span>
+                  </li>
+                  
+                  <!-- Discount Code -->
+                  <li class="list-group-item">
+                    <label for="discount-code" class="form-label">Enter Discount Code</label>
+                    <div class="input-group">
+                      <input type="text" class="form-control" id="discount-code" placeholder="FLAT50">
+                      <button class="btn btn-dark">Apply</button>
+                    </div>
+                  </li>
+                  
+                  <!-- Delivery Charge -->
+                  <li class="list-group-item d-flex justify-content-between">
+                    <span>Delivery Charge</span>
+                    <span>$5.00</span>
+                  </li>
+                  
+                  <!-- Grand Total -->
+                  <li class="list-group-item d-flex justify-content-between fw-bold">
+                    <span>Grand Total</span>
+                    <span>$205.00</span>
+                  </li>
+                </ul>
+                
+                <!-- Checkout Button -->
+                <button class="btn btn-dark w-100 mt-3">
+                  <i class="bi bi-arrow-right"></i> Proceed to Checkout
+                </button>
+              </div>
+        </div>
+    </div>
+</div>
+
+  

@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @* animate links*@
+    <link rel="stylesheet" href="~/css/animate.css" />
+    <link rel="stylesheet" href="~/css/animate.min.css" />
+    @*  fontawesome*@
+
+    <link rel="stylesheet" href="~/css/all.css" />
+    <link rel="stylesheet" href="~/css/all.min.css" />
+
+    @*  carousel*@
+    <link rel="stylesheet" href="~/css/owl.carousel.css" />
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/css/" asp-append-version="true" />
+
+    <link rel="stylesheet" href="~/EE_Commerce.styles.css" asp-append-version="true" />
+
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- ========================================= popper js ==================================== -->
+    <script src="~/js/popper.min.js"></script>
+
+    <!-- ========================================= bootstrap js ================================= -->
+    <script src="~/lib/bootstrap/bootstrap.min.js"></script>
+
+    <!-- ========================================= OwlCarousel2-2.3.4 =========================== -->
+    <script src="~/js/owl.carousel.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+
+    <!-- ========================================= wow js ======================================= -->
+    <script src="~/js/wow.js"></script>
+    <script src="~/js/wow.min.js"></script>
+
+    <!-- ===================================== fontawesome =============================== -->
+    <script src="~/js/all.js"></script>
+    <script src="~/js/all.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- ========================================= main js ===================================== -->
+    <script src="~/js/main.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

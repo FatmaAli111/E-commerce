@@ -1,0 +1,80 @@
+﻿ 
+@model Customer
+<div class="container mt-5">
+      <div class="row">
+          <div id="shipping">
+
+          </div>
+
+        <!-- ============================ Left Column (Shipping Address) ========================== -->
+        <div class="col-md-8">
+          <h3>Shipping Address</h3>
+    
+          <!-- Progress bar -->
+          <ul class="nav nav-pills mb-4">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Address</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Payment_Method">Payment Method</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Order_Summary">Review</a>
+            </li>
+          </ul>
+    
+          <!-- =============================== Existing Addresses ================================= -->
+   
+         
+          <!-- ============== Add a new address form ============================== -->
+          <h5>Add a new address</h5>
+            <form method="post" asp-action="AddNewCustomer">
+            <div class="mb-3">
+              <label asp-for="CustName" class="form-label"></label>
+              <input asp-for="CustName" class="form-control" id="name" placeholder="Enter Name">
+            </div>
+            <div class="mb-3">
+              <label asp-for="CustPhone" class="form-label"></label>
+              <input asp-for="CustPhone" class="form-control" id="mobile" placeholder="Enter Mobile Number">
+            </div>
+            <div class="mb-3">
+              <label asp-for="Street" class="form-label"></label>
+                    <input asp-for="Street" class="form-control" id="address" placeholder="Enter Your Address">
+            </div>
+            <div class="mb-3">
+              <label asp-for="City" class="form-label"></label>
+                    <input asp-for="City" class="form-control" id="address" placeholder="Address, Street, Village">
+
+            </div>
+            <div class="mb-3">
+              <label asp-for="CustId" class="form-label">Zip Code</label>
+              <input asp-for="CustId" class="form-control" id="zip" placeholder="Enter Zip Code">
+            </div>
+            <button type="submit" class="btn btn-dark">Add New Address</button>
+      
+        </form>
+        </div>
+
+    
+        <!-- ============================ Right Column (Summary) =============================== -->
+       
+      <br/>
+    <br />
+
+  </div>
+    <script>
+        $(document).ready(function () {
+            // طلب AJAX لتحميل الـ Partial View بعد تحميل الصفحة
+            $.ajax({
+                url: '/customer/shipping', // الرابط المؤدي إلى الدالة في الـ Controller
+                type: 'GET',
+                success: function (result) {
+                    // عرض الـ Partial View داخل الـ Container
+                    $('#shipping').html(result);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error loading partial view:', error);
+                }
+            });
+        });
+    </script>

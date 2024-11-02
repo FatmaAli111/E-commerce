@@ -1,0 +1,361 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<Product> 
+     <section class="hero_page py-5 bg-white">
+      <div class="container mt-4 shadow-sm rounded-4 bg-body-tertiary">
+        <div class="row gy-2 gy-md-4 gy-lg-5 align-items-center  ">
+          <div class="col-12 col-md-6 mb-4 mb-lg-0">
+            <div class="pe-lg-3">
+              <h4 class="mb-4 fs-3 text-center">
+                Classic Exclusive
+              </h4>
+              <h1 class="lead mb-4 text-center fw-bold fs-1">Women's Collection</h1>
+
+              <h5 class="mb-4 fs-3 text-center"> UPTO 40% OFF</h5>
+            </div>
+
+            <div class="button_shop text-center">
+              <a href="" class="btn btn-dark rounded-4">shop now<i class=" mx-2 fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-4 mb-lg-0">
+            <img src="~/imgs/hero_page.png" alt="hero_page" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+     </section>
+
+    <!-- ================================== end hero_page ======================================= -->
+
+    <!-- ================================== Categories strat ==================================== -->
+    <div class="container my-5">
+      <div class="title-nav-container">
+        <h2>Shop by Categories</h2>
+        <!-- Custom Navigation -->
+        <div class="custom-nav">
+          <button class="owl-prev"><i class="fa-solid fa-arrow-left"></i></button>
+          <button class="owl-next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="card">
+            <img src="~/images/black_tuxedo.jpg" class="card-img-top" alt="Casual Wear">
+            <div class="card-body-overlay">
+              <p class="card-title">Casual Wear</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card">
+            <img src="~/images/Mobaco Men Regular Fit Polo Shirt .jpg" class="card-img-top" alt="Western Wear">
+            <div class="card-body-overlay">
+              <p class="card-title">Western Wear</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+            <div class="card product-card">
+            <img src="~/images/GRACE_KARIN_Women_Summer_Maxi_Dress.jpg" class="card-img-top" alt="Ethnic Wear">
+            <div class="card-body-overlay">
+              <p class="card-title">Ethnic Wear</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card">
+            <img src="~/images/Mobaco Men Regular Fit Polo Shirt SO100.jpg" class="card-img-top" alt="Kids Wear">
+            <div class="card-body-overlay">
+              <p class="card-title">Kids Wear</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================================== end Categories ====================================== -->
+
+    <!-- ================================== Bestseller Strat ==================================== -->
+    <section class="mt-5 py-4 py-md-5 py-lg-5 mb-5">
+
+      <h1 class="text-center fs-2 fw-bold">Our Bestseller </h1>
+
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+            <!-- Row 1 -->
+@foreach(var i in Model)
+{
+            <div class="col-md-3 mb-4">
+                <div class="card product-card">
+                    <img src="@i.Imagepath" alt="Product Image" class="card-img-top">
+                    <div class="product-icons">
+                        <a href="#" class="btn btn-light"><i class="bi bi-star"></i></a>
+                        <a href="#" class="btn btn-light"><i class="bi bi-arrow-left-right"></i></a>
+                        <a href="#" class="btn btn-light"><i class="bi bi-eye"></i></a>
+                    </div>
+                    <button class="add-to-cart-btn btn btn-light">Add to Cart</button>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">@i.PName</h5>
+                        <p class="card-text">@i.Description</p>
+                        <div>
+                            <span class="new-price">$@i.Price</span>
+                            <span class="old-price">$@(i.Price+20)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+}
+
+
+
+    <!-- ================================== end Bestseller ====================================== -->
+
+    <!-- ================================== deals start ========================================= -->
+
+     <div class="container deals-section">
+       <div class="row align-items-center gy-3 gy-md-4 gy-lg-5">
+          <div class="col-md-6">
+              <h1 class="fw-bold">Deals of the Month</h1>
+              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+              <div class="timer-box">
+                  <div class="timer">
+                      <h2 class="fw-bold">120</h2>
+                      <p>Days</p>
+                  </div>
+                  <div class="timer">
+                      <h2 class="fw-bold">18</h2>
+                      <p>Hours</p>
+                  </div>
+                  <div class="timer">
+                      <h2 class="fw-bold">15</h2>
+                      <p>Mins</p>
+                  </div>
+                  <div class="timer">
+                      <h2 class="fw-bold">10</h2>
+                      <p>Secs</p>
+                  </div>
+              </div>
+              <div class="button_view mt-4 mb-4">
+                <a href="home/productListing" class="btn btn-dark view-products-btn">View All Products <i class=" mx-2 fas fa-arrow-right"></i></a>
+              </div>
+          </div>
+          <!-- Right side (image) -->
+        <div class="col-md-6 image-section">
+            <img src="https://cdn.prod.website-files.com/65943d23dc44e6ce92eb6b67/65fc9f534c1398dac499304d_commercial_search-p-800.jpg" alt="Deals Image">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ================================== end deals ===================================== -->
+
+    <!-- ================================== review start ================================== -->
+
+    <section class="py-2 py-md-4 py-lg-4 mt-2 mb-2 bg-body-tertiary">
+      <div class="container-fluid my-5 ">
+        <div id="title-nav-container">
+          <h2 class="fs-3">What our Customer say’s</h2>
+          <!-- Custom Navigation -->
+          <div id="custom-nav">
+            <button class="owl-prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="owl-next"><i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+  
+        <div id="owl-carousel" class="owl-carousel owl-theme">
+          <!-- Review 1 -->
+          <div class="review-item">
+            <div class="stars">★★★★★</div>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
+            <div class="reviewer">
+              <img src="https://via.placeholder.com/40" alt="Reviewer">
+              <div>
+                <h5>Leslie Alexander</h5>
+                <span>Model</span>
+              </div>
+            </div>
+          </div>
+          <!-- Review 2 -->
+          <div class="review-item">
+            <div class="stars">★★★★★</div>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
+            <div class="reviewer">
+              <img src="https://via.placeholder.com/40" alt="Reviewer">
+              <div>
+                <h5>Jacob Jones</h5>
+                <span>Co-Founder</span>
+              </div>
+            </div>
+          </div>
+          <!-- Review 3 -->
+          <div class="review-item">
+            <div class="stars">★★★★★</div>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
+            <div class="reviewer">
+              <img src="https://via.placeholder.com/40" alt="Reviewer">
+              <div>
+                <h5>Jenny Wilson</h5>
+                <span>Fashion Designer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- ================================== end review ================================== -->
+    <section class="py-2 py-md-2 py-lg-2">
+      <div class="container mt-5">
+        <h2 class="fs-2 text-center mb-5 py-4 mt-4" id="OurInstagramStories">Our Instagram Stories</h2>
+        <div class="row justify-content-center">
+            <!-- First card -->
+            <div class="col-md-3">
+                <div id="custom-card" class="card">
+                    <div class="position-relative">
+                        <img id="custom-card-img" src="https://via.placeholder.com/300x300" class="card-img-top" alt="Product Image">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                            <div id="custom-icon-overlay">
+                                <i class="bi bi-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div id="guarantee-icon-circle">
+                            <i id="guarantee-icon" class="bi bi-currency-dollar"></i>
+                        </div>
+                        <h5 class="card-title mt-3">Money Guarantee</h5>
+                        <p class="card-text">Within 30 days for an exchange</p>
+                    </div>
+                </div>
+            </div>
+      
+            <!-- Second card -->
+            <div class="col-md-3">
+                <div id="custom-card" class="card">
+                    <div class="position-relative">
+                        <img id="custom-card-img" src="https://via.placeholder.com/300x300" class="card-img-top" alt="Product Image">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                            <div id="custom-icon-overlay">
+                                <i class="bi bi-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div id="guarantee-icon-circle">
+                            <i id="guarantee-icon" class="bi bi-box-seam"></i>
+                        </div>
+                        <h5 class="card-title mt-3">Free Shipping</h5>
+                        <p class="card-text">Free shipping for orders above $150</p>
+                    </div>
+                </div>
+            </div>
+      
+            <!-- Third card -->
+            <div class="col-md-3">
+                <div id="custom-card" class="card">
+                    <div class="position-relative">
+                        <img id="custom-card-img" src="https://via.placeholder.com/300x300" class="card-img-top" alt="Product Image">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                            <div id="custom-icon-overlay">
+                                <i class="bi bi-facebook"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div id="guarantee-icon-circle">
+                            <i id="guarantee-icon"  class="bi bi-headset feature-icon"></i>
+                        </div>
+                        <h5 class="card-title mt-3">Online Support</h5>
+                        <p class="card-text">24/7 support for your needs</p>
+                    </div>
+                </div>
+            </div>
+      
+            <!-- Fourth card -->
+            <div class="col-md-3">
+                <div id="custom-card" class="card">
+                    <div class="position-relative">
+                        <img id="custom-card-img" src="https://via.placeholder.com/300x300" class="card-img-top" alt="Product Image">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                            <div id="custom-icon-overlay">
+                                <i class="bi bi-credit-card"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div id="guarantee-icon-circle">
+                          <i class="bi bi-credit-card feature-icon"  id="guarantee-icon"></i>
+                        </div>
+                        <h5 class="card-title mt-3">Flexible Payment</h5>
+                        <p class="card-text">Pay with multiple credit cards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =================================== start Minicart ====================================== -->
+
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartModalLabel">You have 3 items in your cart</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+
+            <div class="d-flex align-items-center mb-3">
+              <img src="~/images/burgundy_wrap_dress.jpg" alt="Dress">
+              <div class="item-info">
+                <p>Girls Pink Moana Printed Dress</p>
+                <small>1 × $80.00</small>
+                <small>Size: S</small>
+              </div>
+              <button class="btn btn-trash btn-sm"><i class="bi bi-trash"></i></button>
+            </div>
+
+            <div class="d-flex align-items-center mb-3">
+              <img src="~/images/Formal_Dresses_for_Wedding_Guest.jpg" alt="Bag">
+              <div class="item-info">
+                <p>Women Textured Handheld Bag</p>
+                <small>1 × $80.00</small>
+                <small>Size: Regular</small>
+              </div>
+              <button class="btn btn-trash btn-sm"><i class="bi bi-trash"></i></button>
+            </div>
+
+            <div class="d-flex align-items-center mb-3">
+              <img src="~/images/Mobaco Men Regular Fit Polo Shirt SO100.jpg" alt="Shirt">
+              <div class="item-info">
+                <p>Tailored Cotton Casual Shirt</p>
+                <small>1 × $40.00</small>
+                <small>Size: M</small>
+              </div>
+              <button class="btn btn-trash btn-sm"><i class="bi bi-trash"></i></button>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center mt-4">
+              <h6>Subtotal</h6>
+              <h6>$200.00</h6>
+            </div>
+          </div>
+          <div class="modal-footer">
+                <a href="customer/order_summary" class="btn btn-outline-dark">View Cart</a>
+                <a href="home/checkout" class="btn btn-dark">Checkout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <!-- =================================== end Minicart ======================================== -->
+
+
+    
