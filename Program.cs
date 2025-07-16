@@ -1,5 +1,5 @@
-using EE_Commerce.Models;
-using EEcomercEE.Models.Datas;
+using EEcomercEE.Datas;
+using EEcomercEE.Models.entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 

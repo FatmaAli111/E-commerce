@@ -1,5 +1,6 @@
 ﻿using EE_Commerce.Models;
-using EEcomercEE.Models.Datas;
+using EEcomercEE.Datas;
+using EEcomercEE.Models.entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,13 +9,7 @@ namespace EEcomercEE.Controllers
     public class AccountController : Controller
     {
         AppDbContext context = new AppDbContext();
-        public IActionResult index()
-        {
-            var products = context.Products.ToList();
-
-            return View("index",products);
-
-        }
+       
         public UserManager<ApplicationUser> UserManager { get; }
         public SignInManager<ApplicationUser> SignInManager { get; }
 
@@ -23,6 +18,14 @@ namespace EEcomercEE.Controllers
         {
             UserManager = userManager;
             SignInManager = signInManager;
+        }
+
+        public IActionResult index()
+        {
+            var products = context.Products.ToList();
+
+            return View("index", products);
+
         }
         [HttpGet]
         public IActionResult SignUp()

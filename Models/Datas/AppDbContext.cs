@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using EE_Commerce.Models;
 using EEcomercEE.entities;
+using EEcomercEE.Models.entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -40,9 +40,7 @@ public partial class AppDbContext : IdentityDbContext<ApplicationUser>
 
     public virtual DbSet<Product> Products { get; set; }
 
-    public virtual DbSet<Role> Roles { get; set; }
 
-    public virtual DbSet<RoleClaim> RoleClaims { get; set; }
 
     public virtual DbSet<SuppCategory> SuppCategories { get; set; }
 
@@ -50,25 +48,11 @@ public partial class AppDbContext : IdentityDbContext<ApplicationUser>
 
     public virtual DbSet<Transactionn> Transactionns { get; set; }
 
-    public virtual DbSet<User> Users { get; set; }
-
-    public virtual DbSet<UserClaim> UserClaims { get; set; }
-
-    public virtual DbSet<UserLogin> UserLogins { get; set; }
-
-    public virtual DbSet<UserLogin1> UserLogins1 { get; set; }
-
-    public virtual DbSet<UserRole> UserRoles { get; set; }
-
-    public virtual DbSet<UserRole1> UserRoles1 { get; set; }
-
-    public virtual DbSet<UserToken> UserTokens { get; set; }
-
-    public virtual DbSet<UserToken1> UserTokens1 { get; set; }
+    public virtual DbSet<ApplicationUser> User { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("server=.;database=FahdDb;integrated security=sspi;trust server certificate=true;");
+        => optionsBuilder.UseSqlServer("server=.;database=NewTest;integrated security=sspi;trust server certificate=true;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -364,48 +348,9 @@ public partial class AppDbContext : IdentityDbContext<ApplicationUser>
                 .IsUnicode(false)
                 .HasColumnName("Tran_status");
         });
+      
+        base.OnModelCreating(modelBuilder);
 
-        modelBuilder.Entity<UserLogin>(entity =>
-        {
-            entity.HasKey(e => new { e.LoginProvider, e.ProviderKey });
-
-            entity.ToTable("UserLogin");
-        });
-
-        modelBuilder.Entity<UserLogin1>(entity =>
-        {
-            entity.HasKey(e => new { e.LoginProvider, e.ProviderKey });
-
-            entity.ToTable("UserLogins");
-        });
-
-        modelBuilder.Entity<UserRole>(entity =>
-        {
-            entity.HasKey(e => new { e.UserId, e.RoleId });
-
-            entity.ToTable("UserRole");
-        });
-
-        modelBuilder.Entity<UserRole1>(entity =>
-        {
-            entity.HasKey(e => new { e.UserId, e.RoleId });
-
-            entity.ToTable("UserRoles");
-        });
-
-        modelBuilder.Entity<UserToken>(entity =>
-        {
-            entity.HasKey(e => new { e.UserId, e.LoginProvider, e.Name });
-
-            entity.ToTable("UserToken");
-        });
-
-        modelBuilder.Entity<UserToken1>(entity =>
-        {
-            entity.HasKey(e => new { e.UserId, e.LoginProvider, e.Name });
-
-            entity.ToTable("UserTokens");
-        });
 
         OnModelCreatingPartial(modelBuilder);
     }

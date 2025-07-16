@@ -23,8 +23,8 @@ public class SignupViewModel
     [DataType(DataType.Password)]
     public string Password { get; set; }
 
-   
+
     [Required(ErrorMessage = "You must agree to the terms and conditions")]
     public bool AgreeToTerms { get; set; }
-   // public bool IsValid { get; internal set; }
+    // public bool IsValid { get; internal set; }
 }

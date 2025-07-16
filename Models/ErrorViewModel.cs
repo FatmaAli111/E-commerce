@@ -1,4 +1,4 @@
-namespace EE_Commerce.Models
+﻿namespace EE_Commerce.Models
 {
     public class ErrorViewModel
     {

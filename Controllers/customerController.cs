@@ -1,6 +1,6 @@
 ﻿
-using EEcomercEE.Models.Datas;
-using EEcomercEE.Models.Entitiess;
+using EEcomercEE.Datas;
+using EEcomercEE.entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EEcomercEE.Controllers

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AB\\source\\repos\\EE_ComercEE\\WebApplication1\\EEcomercEE.csproj": {}
+    "F:\\E-commerce-desk\\EEcomercEE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AB\\source\\repos\\EE_ComercEE\\WebApplication1\\EEcomercEE.csproj": {
+    "F:\\E-commerce-desk\\EEcomercEE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AB\\source\\repos\\EE_ComercEE\\WebApplication1\\EEcomercEE.csproj",
+        "projectUniqueName": "F:\\E-commerce-desk\\EEcomercEE.csproj",
         "projectName": "EEcomercEE",
-        "projectPath": "C:\\Users\\AB\\source\\repos\\EE_ComercEE\\WebApplication1\\EEcomercEE.csproj",
+        "projectPath": "F:\\E-commerce-desk\\EEcomercEE.csproj",
         "packagesPath": "C:\\Users\\AB\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AB\\source\\repos\\EE_ComercEE\\WebApplication1\\obj\\",
+        "outputPath": "F:\\E-commerce-desk\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -94,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

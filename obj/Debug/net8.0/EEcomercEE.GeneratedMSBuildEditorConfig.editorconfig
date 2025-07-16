@@ -17,83 +17,85 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EEcomercEE
 build_property.RootNamespace = EEcomercEE
-build_property.ProjectDir = C:\Users\AB\source\repos\EE_ComercEE\WebApplication1\
+build_property.ProjectDir = F:\E-commerce-desk\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\AB\source\repos\EE_ComercEE\WebApplication1
+build_property.MSBuildProjectDirectory = F:\E-commerce-desk
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/Account/Index.cshtml]
+[F:/E-commerce-desk/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/Account/LogIn.cshtml]
+[F:/E-commerce-desk/Views/Account/LogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/Account/Signup.cshtml]
+[F:/E-commerce-desk/Views/Account/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/customer/Order_Summary.cshtml]
+[F:/E-commerce-desk/Views/customer/Order_Summary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY3VzdG9tZXJcT3JkZXJfU3VtbWFyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/customer/Shipping_Address.cshtml]
+[F:/E-commerce-desk/Views/customer/Shipping_Address.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY3VzdG9tZXJcU2hpcHBpbmdfQWRkcmVzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/Home/Checkout.cshtml]
+[F:/E-commerce-desk/Views/Home/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/Home/forgot_password.cshtml]
+[F:/E-commerce-desk/Views/Home/forgot_password.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxmb3Jnb3RfcGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/Home/Index1.cshtml]
+[F:/E-commerce-desk/Views/Home/Index1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/Home/Payment_Method.cshtml]
+[F:/E-commerce-desk/Views/Home/Payment_Method.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXltZW50X01ldGhvZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/Home/productListing.cshtml]
+[F:/E-commerce-desk/Views/Home/productListing.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcm9kdWN0TGlzdGluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/Home/product_detail.cshtml]
+[F:/E-commerce-desk/Views/Home/product_detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcm9kdWN0X2RldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/Shared/Error.cshtml]
+[F:/E-commerce-desk/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/Shared/_shipping.cshtml]
+[F:/E-commerce-desk/Views/Shared/_shipping.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9zaGlwcGluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/Shared/_SignUpLayout.cshtml]
+[F:/E-commerce-desk/Views/Shared/_SignUpLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWduVXBMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/E-commerce-desk/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/_ViewImports.cshtml]
+[F:/E-commerce-desk/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/_ViewStart.cshtml]
+[F:/E-commerce-desk/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AB/source/repos/EE_ComercEE/WebApplication1/Views/Shared/_Layout.cshtml]
+[F:/E-commerce-desk/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-mirbh8jbbd

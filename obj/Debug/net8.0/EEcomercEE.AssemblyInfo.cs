@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EEcomercEE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d47f0c16aae68bab3853711485db038429e93f50")]
 [assembly: System.Reflection.AssemblyProductAttribute("EEcomercEE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EEcomercEE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

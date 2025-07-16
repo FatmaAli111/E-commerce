@@ -1,5 +1,5 @@
 ﻿using EE_Commerce.Models;
-using EEcomercEE.Models.Datas;
+using EEcomercEE.Datas;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;

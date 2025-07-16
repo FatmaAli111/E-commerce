@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EEcomercEE.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbcontextModelSnapshot : ModelSnapshot
+    partial class AppDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -23,7 +23,7 @@ namespace EEcomercEE.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("EE_Commerce.Models.ApplicationUser", b =>
+            modelBuilder.Entity("EEcomercEE.Models.entities.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -32,10 +32,12 @@ namespace EEcomercEE.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
@@ -51,10 +53,12 @@ namespace EEcomercEE.Migrations
                         .HasColumnType("datetimeoffset");
 
                     b.Property<string>("NormalizedEmail")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("NormalizedUserName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
@@ -72,14 +76,23 @@ namespace EEcomercEE.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("UserName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.Category", b =>
+            modelBuilder.Entity("EEcomercEE.entities.Category", b =>
                 {
                     b.Property<int>("CategoryId")
                         .HasColumnType("int")
@@ -98,7 +111,7 @@ namespace EEcomercEE.Migrations
                     b.ToTable("category", (string)null);
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.CustOrder", b =>
+            modelBuilder.Entity("EEcomercEE.entities.CustOrder", b =>
                 {
                     b.Property<double>("OId")
                         .HasColumnType("float")
@@ -116,7 +129,7 @@ namespace EEcomercEE.Migrations
                     b.ToTable("Cust_Order", (string)null);
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.CustPhone", b =>
+            modelBuilder.Entity("EEcomercEE.entities.CustPhone", b =>
                 {
                     b.Property<int>("CustId")
                         .HasColumnType("int")
@@ -139,7 +152,7 @@ namespace EEcomercEE.Migrations
                     b.ToTable("cust_phone", (string)null);
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.Customer", b =>
+            modelBuilder.Entity("EEcomercEE.entities.Customer", b =>
                 {
                     b.Property<int>("CustId")
                         .HasColumnType("int")
@@ -176,7 +189,7 @@ namespace EEcomercEE.Migrations
                     b.ToTable("Customer", (string)null);
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.Inventory", b =>
+            modelBuilder.Entity("EEcomercEE.entities.Inventory", b =>
                 {
                     b.Property<int>("InventoryId")
                         .HasColumnType("int")
@@ -207,7 +220,7 @@ namespace EEcomercEE.Migrations
                     b.ToTable("inventory", (string)null);
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.OrderTransaction", b =>
+            modelBuilder.Entity("EEcomercEE.entities.OrderTransaction", b =>
                 {
                     b.Property<double>("OId")
                         .HasColumnType("float")
@@ -225,7 +238,7 @@ namespace EEcomercEE.Migrations
                     b.ToTable("Order_Transaction", (string)null);
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.Orderr", b =>
+            modelBuilder.Entity("EEcomercEE.entities.Orderr", b =>
                 {
                     b.Property<double>("OrdId")
                         .HasColumnType("float")
@@ -255,7 +268,7 @@ namespace EEcomercEE.Migrations
                     b.ToTable("Orderr", (string)null);
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.ProdCategory", b =>
+            modelBuilder.Entity("EEcomercEE.entities.ProdCategory", b =>
                 {
                     b.Property<int>("ProdId")
                         .HasColumnType("int")
@@ -271,7 +284,7 @@ namespace EEcomercEE.Migrations
                     b.ToTable("Prod_category", (string)null);
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.ProdInventory", b =>
+            modelBuilder.Entity("EEcomercEE.entities.ProdInventory", b =>
                 {
                     b.Property<int>("ProdId")
                         .HasColumnType("int")
@@ -289,7 +302,7 @@ namespace EEcomercEE.Migrations
                     b.ToTable("Prod_inventory", (string)null);
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.ProdOrder", b =>
+            modelBuilder.Entity("EEcomercEE.entities.ProdOrder", b =>
                 {
                     b.Property<int>("ProdId")
                         .HasColumnType("int")
@@ -317,7 +330,7 @@ namespace EEcomercEE.Migrations
                     b.ToTable("Prod_order", (string)null);
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.Product", b =>
+            modelBuilder.Entity("EEcomercEE.entities.Product", b =>
                 {
                     b.Property<int>("PId")
                         .ValueGeneratedOnAdd()
@@ -352,7 +365,7 @@ namespace EEcomercEE.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.SuppCategory", b =>
+            modelBuilder.Entity("EEcomercEE.entities.SuppCategory", b =>
                 {
                     b.Property<int>("SupplierId")
                         .HasColumnType("int")
@@ -370,7 +383,7 @@ namespace EEcomercEE.Migrations
                     b.ToTable("supp_category", (string)null);
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.Supplier", b =>
+            modelBuilder.Entity("EEcomercEE.entities.Supplier", b =>
                 {
                     b.Property<int>("SupplierId")
                         .HasColumnType("int")
@@ -407,7 +420,7 @@ namespace EEcomercEE.Migrations
                     b.ToTable("supplier", (string)null);
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.Transactionn", b =>
+            modelBuilder.Entity("EEcomercEE.entities.Transactionn", b =>
                 {
                     b.Property<int>("PaymentId")
                         .HasColumnType("int")
@@ -435,74 +448,31 @@ namespace EEcomercEE.Migrations
                     b.ToTable("Transactionn", (string)null);
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.UserLogin", b =>
-                {
-                    b.Property<string>("LoginProvider")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("ProviderKey")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("ProviderDisplayName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("LoginProvider", "ProviderKey");
-
-                    b.ToTable("UserLogin");
-                });
-
-            modelBuilder.Entity("EEcomercEE.Models.entities.UserRole", b =>
-                {
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("RoleId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("UserId", "RoleId");
-
-                    b.ToTable("UserRole");
-                });
-
-            modelBuilder.Entity("EEcomercEE.Models.entities.UserToken", b =>
-                {
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("LoginProvider")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("Value")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("UserId", "LoginProvider", "Name");
-
-                    b.ToTable("UserToken");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("NormalizedName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Roles");
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("RoleNameIndex")
+                        .HasFilter("[NormalizedName] IS NOT NULL");
+
+                    b.ToTable("AspNetRoles", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -520,11 +490,14 @@ namespace EEcomercEE.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("RoleId")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("RoleClaims");
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetRoleClaims", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -542,11 +515,14 @@ namespace EEcomercEE.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserClaims");
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserClaims", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
@@ -561,11 +537,14 @@ namespace EEcomercEE.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("LoginProvider", "ProviderKey");
 
-                    b.ToTable("UserLogins");
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserLogins", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
@@ -578,7 +557,9 @@ namespace EEcomercEE.Migrations
 
                     b.HasKey("UserId", "RoleId");
 
-                    b.ToTable("UserRoles");
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetUserRoles", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -597,20 +578,20 @@ namespace EEcomercEE.Migrations
 
                     b.HasKey("UserId", "LoginProvider", "Name");
 
-                    b.ToTable("UserTokens");
+                    b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.CustOrder", b =>
+            modelBuilder.Entity("EEcomercEE.entities.CustOrder", b =>
                 {
-                    b.HasOne("EEcomercEE.Models.entities.Customer", "Cust")
+                    b.HasOne("EEcomercEE.entities.Customer", "Cust")
                         .WithMany("CustOrders")
                         .HasForeignKey("CustId")
                         .IsRequired()
                         .HasConstraintName("FK_Cust_Order_Customer1");
 
-                    b.HasOne("EEcomercEE.Models.entities.Orderr", "OIdNavigation")
+                    b.HasOne("EEcomercEE.entities.Orderr", "OIdNavigation")
                         .WithOne("CustOrder")
-                        .HasForeignKey("EEcomercEE.Models.entities.CustOrder", "OId")
+                        .HasForeignKey("EEcomercEE.entities.CustOrder", "OId")
                         .IsRequired()
                         .HasConstraintName("FK_Cust_Order_Orderr");
 
@@ -619,9 +600,9 @@ namespace EEcomercEE.Migrations
                     b.Navigation("OIdNavigation");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.CustPhone", b =>
+            modelBuilder.Entity("EEcomercEE.entities.CustPhone", b =>
                 {
-                    b.HasOne("EEcomercEE.Models.entities.Customer", "CustTempId1Navigation")
+                    b.HasOne("EEcomercEE.entities.Customer", "CustTempId1Navigation")
                         .WithMany("CustPhones")
                         .HasForeignKey("CustTempId1")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -630,9 +611,9 @@ namespace EEcomercEE.Migrations
                     b.Navigation("CustTempId1Navigation");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.OrderTransaction", b =>
+            modelBuilder.Entity("EEcomercEE.entities.OrderTransaction", b =>
                 {
-                    b.HasOne("EEcomercEE.Models.entities.Transactionn", "Pay")
+                    b.HasOne("EEcomercEE.entities.Transactionn", "Pay")
                         .WithMany("OrderTransactions")
                         .HasForeignKey("PayId")
                         .HasConstraintName("FK_Order_Transaction_Transactionn1");
@@ -640,20 +621,20 @@ namespace EEcomercEE.Migrations
                     b.Navigation("Pay");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.Orderr", b =>
+            modelBuilder.Entity("EEcomercEE.entities.Orderr", b =>
                 {
-                    b.HasOne("EEcomercEE.Models.entities.OrderTransaction", "Ord")
+                    b.HasOne("EEcomercEE.entities.OrderTransaction", "Ord")
                         .WithOne("Orderr")
-                        .HasForeignKey("EEcomercEE.Models.entities.Orderr", "OrdId")
+                        .HasForeignKey("EEcomercEE.entities.Orderr", "OrdId")
                         .IsRequired()
                         .HasConstraintName("FK_Orderr_Order_Transaction1");
 
                     b.Navigation("Ord");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.ProdInventory", b =>
+            modelBuilder.Entity("EEcomercEE.entities.ProdInventory", b =>
                 {
-                    b.HasOne("EEcomercEE.Models.entities.Inventory", "Inventory")
+                    b.HasOne("EEcomercEE.entities.Inventory", "Inventory")
                         .WithMany("ProdInventories")
                         .HasForeignKey("InventoryId")
                         .IsRequired()
@@ -662,15 +643,15 @@ namespace EEcomercEE.Migrations
                     b.Navigation("Inventory");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.ProdOrder", b =>
+            modelBuilder.Entity("EEcomercEE.entities.ProdOrder", b =>
                 {
-                    b.HasOne("EEcomercEE.Models.entities.Orderr", "OIdNavigation")
+                    b.HasOne("EEcomercEE.entities.Orderr", "OIdNavigation")
                         .WithMany("ProdOrders")
                         .HasForeignKey("OId")
                         .IsRequired()
                         .HasConstraintName("FK_Prod_order_Orderr");
 
-                    b.HasOne("EEcomercEE.Models.entities.Product", "Prod")
+                    b.HasOne("EEcomercEE.entities.Product", "Prod")
                         .WithMany("ProdOrders")
                         .HasForeignKey("ProdId")
                         .IsRequired()
@@ -681,21 +662,21 @@ namespace EEcomercEE.Migrations
                     b.Navigation("Prod");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.SuppCategory", b =>
+            modelBuilder.Entity("EEcomercEE.entities.SuppCategory", b =>
                 {
-                    b.HasOne("EEcomercEE.Models.entities.Category", "Category")
+                    b.HasOne("EEcomercEE.entities.Category", "Category")
                         .WithMany("SuppCategories")
                         .HasForeignKey("CategoryId")
                         .IsRequired()
                         .HasConstraintName("FK_supp_category_category");
 
-                    b.HasOne("EEcomercEE.Models.entities.ProdCategory", "CategoryNavigation")
+                    b.HasOne("EEcomercEE.entities.ProdCategory", "CategoryNavigation")
                         .WithMany("SuppCategories")
                         .HasForeignKey("CategoryId")
                         .IsRequired()
                         .HasConstraintName("FK_supp_category_Prod_category");
 
-                    b.HasOne("EEcomercEE.Models.entities.Supplier", "Supplier")
+                    b.HasOne("EEcomercEE.entities.Supplier", "Supplier")
                         .WithMany("SuppCategories")
                         .HasForeignKey("SupplierId")
                         .IsRequired()
@@ -708,51 +689,102 @@ namespace EEcomercEE.Migrations
                     b.Navigation("Supplier");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.Category", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
+                {
+                    b.HasOne("EEcomercEE.Models.entities.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
+                {
+                    b.HasOne("EEcomercEE.Models.entities.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EEcomercEE.Models.entities.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+                {
+                    b.HasOne("EEcomercEE.Models.entities.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("EEcomercEE.entities.Category", b =>
                 {
                     b.Navigation("SuppCategories");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.Customer", b =>
+            modelBuilder.Entity("EEcomercEE.entities.Customer", b =>
                 {
                     b.Navigation("CustOrders");
 
                     b.Navigation("CustPhones");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.Inventory", b =>
+            modelBuilder.Entity("EEcomercEE.entities.Inventory", b =>
                 {
                     b.Navigation("ProdInventories");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.OrderTransaction", b =>
+            modelBuilder.Entity("EEcomercEE.entities.OrderTransaction", b =>
                 {
                     b.Navigation("Orderr");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.Orderr", b =>
+            modelBuilder.Entity("EEcomercEE.entities.Orderr", b =>
                 {
                     b.Navigation("CustOrder");
 
                     b.Navigation("ProdOrders");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.ProdCategory", b =>
+            modelBuilder.Entity("EEcomercEE.entities.ProdCategory", b =>
                 {
                     b.Navigation("SuppCategories");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.Product", b =>
+            modelBuilder.Entity("EEcomercEE.entities.Product", b =>
                 {
                     b.Navigation("ProdOrders");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.Supplier", b =>
+            modelBuilder.Entity("EEcomercEE.entities.Supplier", b =>
                 {
                     b.Navigation("SuppCategories");
                 });
 
-            modelBuilder.Entity("EEcomercEE.Models.entities.Transactionn", b =>
+            modelBuilder.Entity("EEcomercEE.entities.Transactionn", b =>
                 {
                     b.Navigation("OrderTransactions");
                 });
