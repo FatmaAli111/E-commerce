@@ -79,22 +79,22 @@
               <a href="" class="fs-4 mx-2 text-black"><i class="fas fa-heart"></i></a>
               <a href="" class="fs-4 mx-2 text-black" data-bs-toggle="modal" data-bs-target="#cartModal"><i class="fas fa-shopping-bag"></i></a>
           </div>
-          @if(User.Identity.IsAuthenticated)
+                    @if (User.Identity.IsAuthenticated)
                     {
-                         
                         <div class="login mx-3">
-                            <a class="btn btn-dark rounded-2 " href="account/SignOut">SignOut</a>
+                            <a class="btn btn-dark rounded-2" href="/account/SignOut">SignOut</a>
                         </div>
+                    }
+                    else
+                    {
+                        <div class="login mx-3">
+                            <a class="btn btn-dark rounded-2" href="/account/LogIn">Login</a>
+                        </div>
+                        <div class="login mx-3">
+                            <a class="btn btn-dark rounded-2" href="/account/SignUp">SignUp</a>
+                        </div>
+                    }
 
-          }else
-       {   <div class="login mx-3">
-              <a  class="btn btn-dark rounded-2 " href="account/LogIn">login</a>
-          </div>
-
-                    <div class="login mx-3">
-                        <a class="btn btn-dark rounded-2 " href="Account/SignUp">SignUp</a>
-                    </div>
-       }
       </div>
     </div>
   </nav>

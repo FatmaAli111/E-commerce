@@ -65,11 +65,12 @@ namespace EEcomercEE.Controllers
             return View("LogIn");
         }
         [HttpPost]
+        [HttpPost]
         public async Task<IActionResult> SaveLogin(LoginViewModel dataFromRequest)
         {
             if (ModelState.IsValid)
             {
-                //get from db ,compare ,authanticated
+                // get user
                 ApplicationUser user = await UserManager.FindByEmailAsync(dataFromRequest.Email);
                 if (user != null)
                 {
@@ -77,20 +78,21 @@ namespace EEcomercEE.Controllers
                     if (found)
                     {
                         await SignInManager.SignInAsync(user, dataFromRequest.rememberme);
+                        return RedirectToAction("index", "Home"); 
                     }
-
                 }
-                return RedirectToAction("index");
 
+                ModelState.AddModelError(string.Empty, "Invalid login attempt."); 
             }
-            return View("login", dataFromRequest);
+
+            return View("Login", dataFromRequest);
         }
         public async Task<IActionResult> SignOut()
         {
             await SignInManager.SignOutAsync();
-            return View("Login");
+            return RedirectToAction("LogIn"); 
         }
 
     }
-   
+
 }

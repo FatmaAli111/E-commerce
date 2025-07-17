@@ -8,7 +8,7 @@ namespace EE_Commerce.Models
         [Required(ErrorMessage = "Email is required")]
         [EmailAddress(ErrorMessage = "Invalid email address")]
         public string Email { get; set; }
-        [Required(ErrorMessage = "Password is required"), MaxLength(10), MinLength(6)]
+        [Required(ErrorMessage = "Password is required"), MaxLength(20),MinLength(6)]
         [DataType(DataType.Password)]
         public string Password { get; set; }
 

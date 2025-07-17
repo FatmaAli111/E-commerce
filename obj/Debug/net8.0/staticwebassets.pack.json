@@ -1,399 +1,399 @@
 {
   "Files": [
     {
-      "Id": "F:\\E-commerce-desk\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EEcomercEE.bundle.scp.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EEcomercEE.bundle.scp.css",
       "PackagePath": "staticwebassets\\EEcomercEE.b7xq59p1r9.bundle.scp.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\css\\all.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\css\\all.css",
       "PackagePath": "staticwebassets\\css\\all.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\css\\all.min.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\css\\all.min.css",
       "PackagePath": "staticwebassets\\css\\all.min.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\css\\animate.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\css\\animate.min.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\css\\animate.min.css",
       "PackagePath": "staticwebassets\\css\\animate.min.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\css\\owl.carousel.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\css\\owl.carousel.css",
       "PackagePath": "staticwebassets\\css\\owl.carousel.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\css\\owl.carousel.min.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\css\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\.jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\.jpg",
       "PackagePath": "staticwebassets\\images\\.jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\American_Eagle_Men_Super_Soft_Logo_Graphic_T-Shirt.jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\American_Eagle_Men_Super_Soft_Logo_Graphic_T-Shirt.jpg",
       "PackagePath": "staticwebassets\\images\\American_Eagle_Men_Super_Soft_Logo_Graphic_T-Shirt.jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\Formal_Dresses_for_Wedding_Guest.jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\Formal_Dresses_for_Wedding_Guest.jpg",
       "PackagePath": "staticwebassets\\images\\Formal_Dresses_for_Wedding_Guest.jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\GRACE_KARIN_Women_Summer_Maxi_Dress.jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\GRACE_KARIN_Women_Summer_Maxi_Dress.jpg",
       "PackagePath": "staticwebassets\\images\\GRACE_KARIN_Women_Summer_Maxi_Dress.jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\Mobaco Men Regular Fit Oxford Shirt CEBE MHR.jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\Mobaco Men Regular Fit Oxford Shirt CEBE MHR.jpg",
       "PackagePath": "staticwebassets\\images\\Mobaco Men Regular Fit Oxford Shirt CEBE MHR.jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\Mobaco Men Regular Fit Polo Shirt .jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\Mobaco Men Regular Fit Polo Shirt .jpg",
       "PackagePath": "staticwebassets\\images\\Mobaco Men Regular Fit Polo Shirt .jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\Mobaco Men Regular Fit Polo Shirt SO100.jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\Mobaco Men Regular Fit Polo Shirt SO100.jpg",
       "PackagePath": "staticwebassets\\images\\Mobaco Men Regular Fit Polo Shirt SO100.jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\Mr Sure Mens 3 Piece Suit Blazer.jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\Mr Sure Mens 3 Piece Suit Blazer.jpg",
       "PackagePath": "staticwebassets\\images\\Mr Sure Mens 3 Piece Suit Blazer.jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\MrSure Men’s 3 Piece Suit Blazer (2).jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\MrSure Men’s 3 Piece Suit Blazer (2).jpg",
       "PackagePath": "staticwebassets\\images\\MrSure Men’s 3 Piece Suit Blazer (2).jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\MrSure Men’s 3 Piece Suit Blazer.jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\MrSure Men’s 3 Piece Suit Blazer.jpg",
       "PackagePath": "staticwebassets\\images\\MrSure Men’s 3 Piece Suit Blazer.jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\Premium Dinner Jacket Vest Pants with Tie Set.jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\Premium Dinner Jacket Vest Pants with Tie Set.jpg",
       "PackagePath": "staticwebassets\\images\\Premium Dinner Jacket Vest Pants with Tie Set.jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\Sissyaki Women's Velvet Dress.jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\Sissyaki Women's Velvet Dress.jpg",
       "PackagePath": "staticwebassets\\images\\Sissyaki Women's Velvet Dress.jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\black_tuxedo.jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\black_tuxedo.jpg",
       "PackagePath": "staticwebassets\\images\\black_tuxedo.jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\burgundy_wrap_dress.jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\burgundy_wrap_dress.jpg",
       "PackagePath": "staticwebassets\\images\\burgundy_wrap_dress.jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\navy_blue_shirt.jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\navy_blue_shirt.jpg",
       "PackagePath": "staticwebassets\\images\\navy_blue_shirt.jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\pinstriped_suit.jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\pinstriped_suit.jpg",
       "PackagePath": "staticwebassets\\images\\pinstriped_suit.jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\images\\teal_blazer.jpg",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\images\\teal_blazer.jpg",
       "PackagePath": "staticwebassets\\images\\teal_blazer.jpg"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\imgs\\Forgot Password.png",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\imgs\\Forgot Password.png",
       "PackagePath": "staticwebassets\\imgs\\Forgot Password.png"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\imgs\\OTP.png",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\imgs\\OTP.png",
       "PackagePath": "staticwebassets\\imgs\\OTP.png"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\imgs\\Signup.png",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\imgs\\Signup.png",
       "PackagePath": "staticwebassets\\imgs\\Signup.png"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\imgs\\hero_page.png",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\imgs\\hero_page.png",
       "PackagePath": "staticwebassets\\imgs\\hero_page.png"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\imgs\\login.png",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\imgs\\login.png",
       "PackagePath": "staticwebassets\\imgs\\login.png"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\js\\all.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\js\\all.js",
       "PackagePath": "staticwebassets\\js\\all.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\js\\all.min.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\js\\all.min.js",
       "PackagePath": "staticwebassets\\js\\all.min.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\js\\main.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\js\\owl.carousel.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\js\\owl.carousel.js",
       "PackagePath": "staticwebassets\\js\\owl.carousel.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\js\\owl.carousel.min.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\js\\popper.min.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\js\\popper.min.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\js\\product.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\js\\wow.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\js\\wow.js",
       "PackagePath": "staticwebassets\\js\\wow.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\js\\wow.min.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\js\\wow.min.js",
       "PackagePath": "staticwebassets\\js\\wow.min.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\bootstrap.min.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap.min.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "F:\\E-commerce-desk\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\AB\\E-commerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
